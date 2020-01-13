@@ -32,7 +32,9 @@ soup = BeautifulSoup(page.text, 'lxml')
 
 # 까다로운 html
 
-![image](https://user-images.githubusercontent.com/31649100/72257670-892d8700-364f-11ea-8a09-4936b500b58c.png)
+![image](https://user-images.githubusercontent.com/31649100/72258175-bb8bb400-3650-11ea-8a81-723e8fe16749.png)
+
+
 여기서 sleepIn~ 부분을 크롤링하는 것이 목표
 
 처음에는 .minh를 select하여 div의 next_sibling을 반복하여 crawling 했었다.
@@ -48,6 +50,8 @@ for example in examples :
 ~~~
 .minh에서 parent로 올라가 children의 개수를 통해 index로 출력하여 해결하였다.
 
+
+## 전체 Code
 ![image](https://user-images.githubusercontent.com/31649100/72257631-71ee9980-364f-11ea-84a6-3c899dd8b798.png)
 
 
